@@ -1,0 +1,6 @@
+S_sum=int(input("Enter Secods:"))
+H=int(S_sum/3600)
+R1=int(S_sum%3600)
+M=int(R1/60)
+S=int(R1%60)
+print(H,":",M,":",S)
